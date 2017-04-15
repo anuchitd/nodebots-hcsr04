@@ -31,7 +31,8 @@ ISR(PCINT0_vect) {
         pinging = true;
         ping_emit_time = micros();
     } else { 
-        duration = micros() - ping_emit_time;
+        //duration = micros() - ping_emit_time;
+        duration = ((micros() - ping_emit_time)/100)*1.785;  // Modify For Arducopter.
     }
 }
 
