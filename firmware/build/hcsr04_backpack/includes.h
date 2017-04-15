@@ -1,6 +1,6 @@
 #include <Wire.h>
 
-#define DEFAULT_I2C_SENSOR_ADDRESS  0x27
+#define DEFAULT_I2C_SENSOR_ADDRESS  0x70 //Maxbotix Sonar
 #define REGISTER_MAP_SIZE 2
 
 #define FIRMWARE_VERSION "0.3.1"
