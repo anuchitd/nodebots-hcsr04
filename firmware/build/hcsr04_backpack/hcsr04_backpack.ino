@@ -136,7 +136,7 @@ void get_distance() {
         //Serial.print("D: ");
         //Serial.println(duration);
         Serial.print("CM:");
-        Serial.println((long)duration / 29 / 2);
+        Serial.println((long)duration / 29 / 2 * 100 / 1.505);
     #endif
     
         pinging = false;
