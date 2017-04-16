@@ -33,6 +33,8 @@ ISR(PCINT0_vect) {
     } else { 
         //duration = micros() - ping_emit_time;
         duration = ((micros() - ping_emit_time)/100)*1.785;  // Modify For Arducopter.
+      if (duration > 350)
+        duration = 400;
     }
 }
 
