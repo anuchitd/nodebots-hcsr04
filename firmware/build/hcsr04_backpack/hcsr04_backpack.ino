@@ -1,3 +1,11 @@
+/*********************** 
+  For Arducopter
+ Set Parameter
+   RNGFND_GNDCLEAR 12
+   RNGFND_MAX_CM 350
+   RNGFND_MIN_CM 2
+   RNGFND_TYPE 2
+***********************/
 #include "includes.h"
 #include <avr/interrupt.h>
 
